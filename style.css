@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-image: url('https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/24_Day_Project_solar_system/24_day_starter/images/galaxy.gif');
+}
+
+h1 {
+    color: white;
+}
+
+input {
+    height: 30px;
+}
+
+select {
+    height: 35px;
+}
+
+button {
+    height: 35px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
