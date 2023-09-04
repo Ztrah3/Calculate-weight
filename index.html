@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>  
-        <title>30DaysOfJavaScript:Inline Script</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <title>Calculate weight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <h1>Calculate the weight of an object on a planet</h1>
-       <div class="grid-container">
+<body>
+    <h1>Calculate the weight of an object on a planet</h1>
+    <div class="grid-container">
         <input oninput="saveMass()" id="mass" type="text" placeholder="Enter mass in kilograms">
         <select oninput="removeImage()" onchange="getOption()" name="plaent" id="planet">
             <option value="" disabled selected>
-            Select your option
+                Select your option
             </option>
         </select>
         <button onclick="calculate()" id="calculate">Calculate weight</button>
-       </div>
-        <script src="./main.js"></script>
-    </body>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
 </html>

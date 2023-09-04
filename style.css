@@ -1,6 +1,23 @@
+html {
+    box-sizing: border-box;
+    background-image: url('https://images4.alphacoders.com/120/1200152.png');
+    background-size: cover;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
 body {
     text-align: center;
-    background-image: url('https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/24_Day_Project_solar_system/24_day_starter/images/galaxy.gif');
+}
+
+img {
+    margin-top: 150px;
 }
 
 h1 {
@@ -9,14 +26,17 @@ h1 {
 
 input {
     height: 30px;
+    border-radius: 10px;
 }
 
 select {
     height: 35px;
+    border-radius: 10px;
 }
 
 button {
     height: 35px;
+    border-radius: 10px;
 }
 
 .grid-container {
